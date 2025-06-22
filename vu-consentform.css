@@ -8,4 +8,4 @@ body { width: 6.5in; min-height: 9in; }
 #for-desktop .wrapper { margin: 0; font-size: 11pt; }
 #for-desktop .wrapper h1 { font-size: 16pt; text-align: center; }
 #for-desktop .wrapper button { margin: 0.25in 2.25in; width: 2in; font-size: 16pt; }
-#for-mobile  .wrapper { margin: 0 24pt; font-size: 16pt; }
+#for-mobile  .wrapper { margin: 0 24pt; width: 2in; font-size: 16pt; }
