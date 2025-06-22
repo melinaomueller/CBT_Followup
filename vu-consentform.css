@@ -36,16 +36,16 @@ body {
 	width: 200px;
 	padding: 12px;
 	font-size: 16pt;
-	background-color: #007bff;
-	color: white;
-	border: none;
+	background-color: white;
+	color: black;
+	border: 2px solid black;
 	border-radius: 4px;
 	cursor: pointer;
 	transition: background-color 0.2s;
 }
 
 .wrapper button:hover {
-	background-color: #0056b3;
+	background-color: #f0f0f0;
 }
 
 /* Mobile-specific styles for consent form */
@@ -169,14 +169,14 @@ body {
 		margin: 10px 5px !important;
 		min-height: 48px !important;
 		border-radius: 6px !important;
-		background-color: #007bff !important;
-		color: white !important;
-		border: none !important;
+		background-color: white !important;
+		color: black !important;
+		border: 2px solid black !important;
 		cursor: pointer !important;
 	}
 	
 	.jspsych-btn:hover {
-		background-color: #0056b3 !important;
+		background-color: #f0f0f0 !important;
 	}
 	
 	/* Images (for colorblind test) */
@@ -220,6 +220,11 @@ body {
 
 /* Ensure proper viewport behavior */
 .jspsych-display-element {
+	overflow-x: hidden !important;
+}
+
+/* Fix any horizontal scrolling issues */
+html, body {
 	overflow-x: hidden !important;
 }
 
